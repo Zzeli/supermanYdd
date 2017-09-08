@@ -1,0 +1,10 @@
+@import url(base.css);
+body,html,.container{
+	width: 100%;
+	background: #fff;
+	height: 100%;
+	overflow: hidden;
+}
+.container img{
+	width: 100%;
+}
