@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-   <img src="upload.png" alt="">
+   <img src="" alt="">
 
 
 </div>
@@ -19,6 +19,7 @@
 	
 </body>
 </html>
+<script src="jquery.js"></script>
 <script>
     window.onload=function  () {
         // 常量 const
@@ -41,7 +42,21 @@
         window.onresize= resizeFont;
         window.addEventListener("orientation",resizeFont,false);
         // 屏幕自动旋转得时候
-    }
+          var url="code.png";
+          $('.container img').attr("src",url)
+         
+            // $.ajax({
+            //    url:"ajax.php",
+            //    type:'post',
+            //    dataType:"json",
+            //    data:{},
+            //    success:function(msg)
+            //    {
+            //       //这块填写返回数据的处理，，要是数据返回的是成功就直接跳转首页
+                  
+
+            //    }
+}
 
 
 </script>

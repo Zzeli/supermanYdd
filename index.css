@@ -5,6 +5,16 @@ body,html,.container{
 	height: 100%;
 	overflow: hidden;
 }
+.container {
+	background: url("upload.png")center/cover no-repeat;
+	position: relative;
+}
 .container img{
-	width: 100%;
+	position: absolute;
+	left:0;
+	right: 0;
+	margin: auto;
+	width: 1.86rem;
+	height: 1.86rem;
+	bottom: 5.36rem;
 }
